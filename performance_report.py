@@ -107,7 +107,7 @@ def generate_performance_page_from_template(
             label_opts=opts.LabelOpts(is_show=False),
         )
         .add_yaxis(
-            "基准收益(NetValue2)",
+            "基准收益(上证指数)",
             benchmark_data,
             is_smooth=True,
             is_symbol_show=False,
